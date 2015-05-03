@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A list of text-level semantic elements</title>
+</head>
+<body>
+	<h1>TEXT-LEVEL</h1><br>
+	<b>TEXT-LEVEL</b><br>
+	<basefont>TEXT-LEVEL</basefont><br>
+	<bdo>TEXT-LEVEL</bdo><br>
+	<big>TEXT-LEVEL</big><br>
+	<code>TEXT-LEVEL</code><br>
+	<del>TEXT-LEVEL</del><br>
+	<font>TEXT-LEVEL</font><br>
+	<i>TEXT-LEVEL</i><br>
+	<ins>TEXT-LEVEL</ins><br>
+	<kbd>TEXT-LEVEL</kbd><br>
+	<mark>TEXT-LEVEL</mark><br>
+	<rp>TEXT-LEVEL</rp><br>
+	<s>TEXT-LEVEL</s><br>
+	<samp>TEXT-LEVEL</samp><br>
+	<small>TEXT-LEVEL</small><br>
+	<strong>TEXT-LEVEL</strong><br>
+	<sub>TEXT-LEVEL</sub><br>
+	<sup>TEXT-LEVEL</sup><br>
+	<tt>TEXT-LEVEL</tt><br>
+	<u>TEXT-LEVEL</u><br>
+	<var>TEXT-LEVEL</var><br>
+	<xmp>TEXT-LEVEL</xmp><br>
+</body>
+</html>
