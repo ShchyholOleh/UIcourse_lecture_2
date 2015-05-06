@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+</head>
+<body>
+	<style type="text/css">
+	body{
+background-color: #ECE9E9;
+	}
+ </style>
+	<form action="#" method="GET">
+		<h1>Form</h1>
+		<fieldset>
+			<legend>Person</legend>
+
+			<label for="form-name">Name:</label><br>
+			<input name="form-name" id="form-name" type="text" placeholder="Enter your name" required="not empty" autofocus><br>
+
+			<label for="form-email">Email:</label><br>
+			<input name="form-email" id="form-email" type="email" placeholder="Enter your email" required="not empty">
+			<br>
+			<label for="form-password">Password:</label><br>
+			<input name="form-password" id="form-password" type="password" placeholder="Enter your password" required="not empty"><br>
+			<p>Age:</p>
+			<input list="age" name="age" required>
+			<datalist id="age">
+				<option value="18-25">18-25</option>
+				<option value="25-35">25-35</option>
+				<option value="35+">35+</option>
+			</datalist>
+			<p>Choose a number from 1 to 10:</p>
+			<input type="number" value="5" min="1" max="10" step="1"></fieldset>
+
+		<fieldset>
+			<legend>Choose animal</legend>
+			<p>Are you like enimals?</p>
+			<br>
+			<label>
+				<input type="radio" name="animal" value="yes" >Yes</label>
+			<label>
+				<input type="radio" name="animal" value="no"checked >No</label>
+
+			<p>What animals do you like?</p>
+			<br>
+			<label>
+				<input type="checkbox" name="animal1" value="dogs" >Dogs</label>
+			<label>
+				<input type="checkbox" name="animal1" value="cats"checked >Cats</label>
+			<label>
+				<input type="checkbox" name="animal1" value="fishes">Fishes</label>
+			<label>
+				<input type="checkbox" name="animal1" value="parrots">Parrots</label>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>select</legend>
+			<p>What brand cars you like?</p>
+			<select name="car" size="1">
+				<option value="bmw">BMW</option>
+				<option value="ford">Ford</option>
+				<option value="mercedes"selected>Mercedes</option>
+				<option value="audi">Audi</option>
+				<option value="toyota">Toyota</option>
+				<option value="fiat">Fiat</option>
+			</select>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>URL</legend>
+			<p>Enter your page on Facebook</p>
+			<br>
+			<input type="url" name="url">
+			<p>How many percent of people use computers?</p>
+			<input name="desktop" type="range"  min="0" max="100" step="5"></fieldset>
+
+		<button type="submit">Send</button>
+		<button type="reset">Reset</button>
+		<button type="button">Do nothing</button>
+
+	</form>
+
+</body>
+</html>
